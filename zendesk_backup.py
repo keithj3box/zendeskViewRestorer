@@ -9,7 +9,7 @@ import datetime
 from creds import *
 
 #local vars
-baseURL = 'https://box.zendesk.com/api/v2/'
+baseURL = baseURL # Imported from creds file. 'https://INSTANCE.zendesk.com/api/v2/'
 now = datetime.datetime.now()
 
 # ZD session
